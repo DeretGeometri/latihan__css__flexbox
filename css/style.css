@@ -1,0 +1,62 @@
+:root{
+     --font-konten: Montserrat;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(to top right, #87CEFA, #D8BFD8);
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100vh;
+    pointer-events: none;
+ }
+
+.sambutan-profil p{
+    font-family: var(--font-konten);
+}
+
+
+
+.grid-profil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1{
+    font-weight: 100;
+}
+
+
+.sambutan-profil{
+    background-color: #fffff0;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    box-shadow: 5px 5px 10px -4px;
+    border-radius: 8px;
+}
+
+.sambutan-profil h1{
+    margin-bottom: 1rem;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.sambutan-profil p{
+    font-size: 1rem;
+}
+
+img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 3px solid #eee5de;
+    box-shadow: 5px 5px 10px -4px;
+}
